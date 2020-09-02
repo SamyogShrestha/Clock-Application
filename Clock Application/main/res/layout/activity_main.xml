@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000">
+
+
+    <AnalogClock
+
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="130dp"
+        android:gravity="center"/>
+
+    <DigitalClock
+
+        android:layout_marginLeft="160dp"
+        android:textSize="25dp"
+        android:layout_marginTop="370dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="15sp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="162dp"
+        android:textColor="#FFFF"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/stopwatchbtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Stopwatch"
+        android:background="#6a0dad"
+        android:textColor="#FFFF"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="50dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/alarmbtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Alarm"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="160dp"
+        android:textSize="14sp"
+        android:textColor="#FFFF"
+        android:background="#6a0dad"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/timerbtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="550dp"
+        android:background="#6a0dad"
+        android:text="Timer"
+        android:textColor="#FFFF"
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        style="@android:style/Widget.Material.Light.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="My Clock"
+        android:textColor="#FFFF"
+        android:background="#6a0dad"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="730dp"
+        android:background="#6a0dad"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Designed by Samyog Shrestha"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alarm"
+    android:background="#000000">
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center"
+        android:textColor="#FFFF"
+        android:background="#6a0dad"
+        android:onClick="OnToggleClicked" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        style="@android:style/Widget.Material.Light.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="My Clock"
+        android:textColor="#FFFF"
+        android:background="#6a0dad"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
